@@ -5,65 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6f5e61f-b607-4261-a5af-fd610dcb1680" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Profile.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/morex.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-post-new.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/basic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blogs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/demos/demo-1-colors.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/demos/demo-2-colors.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/gradient.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/images/quote_d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/ionicons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/new-skin/classic-skin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/new-skin/new-skin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/owl.carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/owl.video.play.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/template-dark/dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ionicons790f.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ionicons790f.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ionicons790f.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ionicons790f.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/android-search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/blog1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/blog2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/blog3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/clients/client_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/clients/client_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/clients/client_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/clients/client_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/favicons/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/man1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/man5_big.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/profile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/profile1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/quote.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/works/work1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/works/work2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/works/work3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/works/work4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/works/work5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/works/work6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/works/work7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/works/work8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/imagesloaded.pkgd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/isotope.pkgd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.magnific-popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.slimscroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/owl.carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/typed.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +63,7 @@
       <workItem from="1719214600627" duration="4000" />
       <workItem from="1719236160321" duration="1147000" />
       <workItem from="1719286974226" duration="6099000" />
+      <workItem from="1719367483393" duration="1132000" />
     </task>
     <servers />
   </component>
