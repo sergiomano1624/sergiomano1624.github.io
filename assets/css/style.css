@@ -4250,4 +4250,7 @@ ul.gallery-project-basic-info li:first-child {
     order: 1;
     justify-self: center;
 }
+.feature-box-01.aos-init.aos-animate{
+    height: 100%;
+}
 /*End*/
