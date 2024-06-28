@@ -687,118 +687,250 @@
                 </div>
                 <div class="experience__counter-wrapper mb-50">
                     <div class="row">
-                        <div class="col-xxl-12 mb-30">
-                            <div class="career__item color-bg px-5 py-5" data-aos="fade-up" data-aos-easing="linear"
-                                data-aos-duration="1000">
-                                <div class="career__logo">
-                                    <img src="assets/img/experience/company-icon-1.png" alt="Microsoft">
+                        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="pills-achievements-tab" data-bs-toggle="pill" href="#pills-achievements" role="tab">
+                                    <i class="fas fa-certificate"></i> Certifications
+                                </a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="pills-work-tab" data-bs-toggle="pill" href="#pills-work" role="tab">
+                                    <i class="fas fa-briefcase"></i> Work
+                                </a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="pills-education-tab" data-bs-toggle="pill" href="#pills-education" role="tab">
+                                    <i class="fas fa-graduation-cap"></i> Education
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-achievements" role="tabpanel">
+                                <h3>Certifications</h3>
+
+                                <!-- Courses Section -->
+                                <h2 class="mb-3">Courses</h2>
+                                <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+                                    <!-- Course Certification Card 1 -->
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <div class="card-img-wrapper">
+                                                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Course Certification 1">
+                                                <div class="card-img-overlay" data-bs-toggle="modal" data-bs-target="#imageModal" data-img-src="https://via.placeholder.com/800x600">
+                                                    <i class="fas fa-search preview-icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Web Development Certification</h5>
+                                                <p class="card-text">
+                                                    <strong>Institute:</strong> Tech Academy<br>
+                                                    <strong>Course:</strong> Full Stack Web Development
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Course Certification Card 2 -->
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <div class="card-img-wrapper">
+                                                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Course Certification 2">
+                                                <div class="card-img-overlay" data-bs-toggle="modal" data-bs-target="#imageModal" data-img-src="https://via.placeholder.com/800x600">
+                                                    <i class="fas fa-search preview-icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Data Science Certification</h5>
+                                                <p class="card-text">
+                                                    <strong>Institute:</strong> Data Experts Inc.<br>
+                                                    <strong>Course:</strong> Advanced Data Analysis
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Add more course certification cards as needed -->
                                 </div>
-                                <div class="career__info text-center">
-                                    <h3 class="career__info-title">Microsoft</h3>
-                                    <h6 class="career__info-designation">Product Designer</h6>
+
+                                <!-- Workshops Section -->
+                                <h2 class="mb-3">Workshops</h2>
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <!-- Workshop Certification Card 1 -->
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <div class="card-img-wrapper">
+                                                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Workshop Certification 1">
+                                                <div class="card-img-overlay" data-bs-toggle="modal" data-bs-target="#imageModal" data-img-src="https://via.placeholder.com/800x600">
+                                                    <i class="fas fa-search preview-icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">AI Ethics Workshop</h5>
+                                                <p class="card-text">
+                                                    <strong>Institute:</strong> AI Research Center<br>
+                                                    <strong>Workshop:</strong> Ethical Considerations in AI Development
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Workshop Certification Card 2 -->
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <div class="card-img-wrapper">
+                                                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Workshop Certification 2">
+                                                <div class="card-img-overlay" data-bs-toggle="modal" data-bs-target="#imageModal" data-img-src="https://via.placeholder.com/800x600">
+                                                    <i class="fas fa-search preview-icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Agile Project Management</h5>
+                                                <p class="card-text">
+                                                    <strong>Institute:</strong> Project Management Institute<br>
+                                                    <strong>Workshop:</strong> Agile Methodologies in Practice
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Add more workshop certification cards as needed -->
                                 </div>
-                                <div class="career__year text-center">
-                                    <div class="career__year-info">
-                                        <p>December 2020 - February 2023</p>
+                            </div>
+                            <div class="tab-pane fade" id="pills-work" role="tabpanel">
+                                <h3>Work Experience</h3>
+                                <div class="col-xxl-12 mb-30">
+                                    <div class="career__item color-bg px-5 py-5" data-aos="fade-up" data-aos-easing="linear"
+                                         data-aos-duration="1000">
+                                        <div class="career__info text-center">
+                                            <h3 class="career__info-title">TECHITALENTS</h3>
+                                            <h6 class="career__info-designation">ASSOCIATE SOFTWARE DEVELOPER</h6>
+                                        </div>
+                                        <div class="career__year text-center">
+                                            <div class="career__year-info">
+                                                <p>July 2019 - Present</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="experience_career_icon">
-                                    <a href="#">
-                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M1 11L11 1" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                            <path d="M1 1H11V11" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </a>
+                                <div class="col-xxl-12 mb-30">
+                                    <div class="career__item color-bg px-5 py-5" data-aos="fade-up" data-aos-easing="linear"
+                                         data-aos-duration="1000">
+                                        <div class="career__info text-center">
+                                            <h3 class="career__info-title">ZYPHER</h3>
+                                            <h6 class="career__info-designation">FULL STACK DEVELOPER</h6>
+                                        </div>
+                                        <div class="career__year text-center">
+                                            <div class="career__year-info">
+                                                <p>Sep 2018 - May 2019</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-12 mb-30">
+                                    <div class="career__item color-bg px-5 py-5" data-aos="fade-up" data-aos-easing="linear"
+                                         data-aos-duration="1000">
+                                        <div class="career__info text-center">
+                                            <h3 class="career__info-title">OMEGAON INTERNET PVT.LTD</h3>
+                                            <h6 class="career__info-designation">FRONTEND DEVELOPER</h6>
+                                        </div>
+                                        <div class="career__year text-center">
+                                            <div class="career__year-info">
+                                                <p>Aug 2017 - Sep 2018</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-12 mb-30">
+                                    <div class="career__item color-bg px-5 py-5" data-aos="fade-up" data-aos-easing="linear"
+                                         data-aos-duration="1000">
+                                        <div class="career__info text-center">
+                                            <h3 class="career__info-title">INFO NETWORK MANAGEMENT</h3>
+                                            <h6 class="career__info-designation">WEB DEVELOPER</h6>
+                                        </div>
+                                        <div class="career__year text-center">
+                                            <div class="career__year-info">
+                                                <p>Feb 2016 - Aug 2017</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-education" role="tabpanel">
+                                <h3>Education</h3>
+                                <div class="col-xxl-12 mb-30">
+                                    <div class="career__item color-bg px-5 py-5" data-aos="fade-up" data-aos-easing="linear"
+                                         data-aos-duration="1000">
+                                        <div class="career__info text-center">
+                                            <h3 class="career__info-title">VLB Janakiammal College Of Arts & Science</h3>
+                                            <h6 class="career__info-designation">Bachelor's Degree
+                                            </h6>
+                                        </div>
+                                        <div class="career__year text-center">
+                                            <div class="career__year-info">
+                                                <p>2014</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xxl-12 mb-30">
-                            <div class="career__item color-bg px-5 py-5" data-aos="fade-up" data-aos-easing="linear"
-                                data-aos-duration="1000">
-                                <div class="career__logo">
-                                    <img src="assets/img/experience/company-icon-2.png" alt="Google">
-                                </div>
-                                <div class="career__info text-center">
-                                    <h3 class="career__info-title">Google</h3>
-                                    <h6 class="career__info-designation">UX/UX Web Designer</h6>
-                                </div>
-                                <div class="career__year text-center">
-                                    <div class="career__year-info">
-                                        <p>July 2016 - November 2020</p>
-                                    </div>
-                                </div>
-                                <div class="experience_career_icon">
-                                    <a href="#">
-                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M1 11L11 1" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                            <path d="M1 1H11V11" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-12 mb-30">
-                            <div class="career__item color-bg px-5 py-5" data-aos="fade-up" data-aos-easing="linear"
-                                data-aos-duration="1000">
-                                <div class="career__logo">
-                                    <img src="assets/img/experience/company-icon-3.png" alt="Apple">
-                                </div>
-                                <div class="career__info text-center">
-                                    <h3 class="career__info-title">Apple</h3>
-                                    <h6 class="career__info-designation">Graphic Designer</h6>
-                                </div>
-                                <div class="career__year text-center">
-                                    <div class="career__year-info">
-                                        <p>April 2014 - June 2016</p>
-                                    </div>
-                                </div>
-                                <div class="experience_career_icon">
-                                    <a href="#">
-                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M1 11L11 1" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                            <path d="M1 1H11V11" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-12 mb-30">
-                            <div class="career__item color-bg px-5 py-5" data-aos="fade-up" data-aos-easing="linear"
-                                data-aos-duration="1000">
-                                <div class="career__logo">
-                                    <img src="assets/img/experience/company-icon-4.png" alt="Dirbbble">
-                                </div>
-                                <div class="career__info text-center">
-                                    <h3 class="career__info-title">Dirbbble</h3>
-                                    <h6 class="career__info-designation">UI/UX Designer</h6>
-                                </div>
-                                <div class="career__year text-center">
-                                    <div class="career__year-info">
-                                        <p>April 2010 - March 2014</p>
-                                    </div>
-                                </div>
-                                <div class="experience_career_icon">
-                                    <a href="#">
-                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M1 11L11 1" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                            <path d="M1 1H11V11" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+
+<!--                        <div class="col-xxl-12 mb-30">-->
+<!--                            <div class="career__item color-bg px-5 py-5" data-aos="fade-up" data-aos-easing="linear"-->
+<!--                                data-aos-duration="1000">-->
+<!--                                <div class="career__logo">-->
+<!--                                    <img src="assets/img/experience/company-icon-1.png" alt="Microsoft">-->
+<!--                                </div>-->
+<!--                                <div class="career__info text-center">-->
+<!--                                    <h3 class="career__info-title">Microsoft</h3>-->
+<!--                                    <h6 class="career__info-designation">Product Designer</h6>-->
+<!--                                </div>-->
+<!--                                <div class="career__year text-center">-->
+<!--                                    <div class="career__year-info">-->
+<!--                                        <p>December 2020 - February 2023</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="experience_career_icon">-->
+<!--                                    <a href="#">-->
+<!--                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"-->
+<!--                                            xmlns="http://www.w3.org/2000/svg">-->
+<!--                                            <path d="M1 11L11 1" stroke="currentColor" stroke-width="2"-->
+<!--                                                stroke-linecap="round" stroke-linejoin="round" />-->
+<!--                                            <path d="M1 1H11V11" stroke="currentColor" stroke-width="2"-->
+<!--                                                stroke-linecap="round" stroke-linejoin="round" />-->
+<!--                                        </svg>-->
+<!--                                    </a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-xxl-12 mb-30">-->
+<!--                            <div class="career__item color-bg px-5 py-5" data-aos="fade-up" data-aos-easing="linear"-->
+<!--                                data-aos-duration="1000">-->
+<!--                                <div class="career__logo">-->
+<!--                                    <img src="assets/img/experience/company-icon-2.png" alt="Google">-->
+<!--                                </div>-->
+<!--                                <div class="career__info text-center">-->
+<!--                                    <h3 class="career__info-title">Google</h3>-->
+<!--                                    <h6 class="career__info-designation">UX/UX Web Designer</h6>-->
+<!--                                </div>-->
+<!--                                <div class="career__year text-center">-->
+<!--                                    <div class="career__year-info">-->
+<!--                                        <p>July 2016 - November 2020</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="experience_career_icon">-->
+<!--                                    <a href="#">-->
+<!--                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"-->
+<!--                                            xmlns="http://www.w3.org/2000/svg">-->
+<!--                                            <path d="M1 11L11 1" stroke="currentColor" stroke-width="2"-->
+<!--                                                stroke-linecap="round" stroke-linejoin="round" />-->
+<!--                                            <path d="M1 1H11V11" stroke="currentColor" stroke-width="2"-->
+<!--                                                stroke-linecap="round" stroke-linejoin="round" />-->
+<!--                                        </svg>-->
+<!--                                    </a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
                     </div>
                 </div>
             </div>
