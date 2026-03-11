@@ -88,23 +88,24 @@ const WhatIDo = () => {
 
             <div className="what-content-in">
               <h3>DEVELOP</h3>
-              <h4>Description</h4>
+              <h4>Full-Stack Engineering</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                Building robust web applications end-to-end — from pixel-perfect
+                React frontends to high-performance Go and Node.js backends with
+                clean REST APIs.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Skillset &amp; tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
                 <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
+                <div className="what-tags">React Native</div>
+                <div className="what-tags">TypeScript</div>
                 <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">GoLang</div>
+                <div className="what-tags">Python (FastAPI)</div>
+                <div className="what-tags">PostgreSQL</div>
+                <div className="what-tags">AWS</div>
+                <div className="what-tags">Tailwind</div>
+                <div className="what-tags">Bootstrap</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -128,22 +129,22 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
-              <h4>Description</h4>
+              <h3>TOOLING</h3>
+              <h4>DevOps & Practices</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                Shipping quality software with solid engineering practices —
+                CI/CD, API docs, testing, and agile project management.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Skillset &amp; tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">GitHub / Bitbucket</div>
+                <div className="what-tags">CI/CD Pipelines</div>
+                <div className="what-tags">Swagger</div>
+                <div className="what-tags">REST APIs</div>
+                <div className="what-tags">Jira</div>
+                <div className="what-tags">Jest / Testing</div>
+                <div className="what-tags">NPM Packages</div>
+                <div className="what-tags">Docker</div>
               </div>
               <div className="what-arrow"></div>
             </div>

@@ -6,9 +6,11 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          Senior Software Engineer & Team Lead with 9+ years of experience
+          building scalable web applications. Proficient in React, Node.js,
+          GoLang, and Python (FastAPI), with a strong grasp of REST API design,
+          PostgreSQL, and AWS. Passionate about adopting new technologies and
+          delivering impactful, user-centric products.
         </p>
       </div>
     </div>
