@@ -26,13 +26,13 @@ const projects = [
       "Published reusable React component libraries and utility packages on NPM, used by developers across multiple projects.",
   },
   {
-    title: "Funding Societies",
-    category: "Fintech Platform",
-    tools: "React, Node.js, PostgreSQL",
+    title: "EcoSearch",
+    category: "AI Search Platform",
+    tools: "ReactJS, Python (FastAPI), PostgreSQL",
     image: "/images/placeholder.webp",
-    link: "#",
+    link: "https://ecosearch.ai/",
     description:
-      "Contributed to fintech loan management systems, building REST APIs, React dashboards, and CI/CD pipelines for Southeast Asia.",
+      "AI-powered search platform delivering intelligent, eco-conscious search experiences with a modern React frontend and FastAPI backend.",
   },
 ];
 
